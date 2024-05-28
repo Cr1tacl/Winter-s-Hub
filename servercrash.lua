@@ -9,3 +9,5 @@ Animation.AnimationId = "rbxassetid://84315373"
 
 local Track = Humanoid:LoadAnimation(Animation)
 Track:Play()
+
+--credit to johncrash
