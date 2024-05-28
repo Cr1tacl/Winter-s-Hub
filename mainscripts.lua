@@ -2642,4 +2642,4 @@ function Winter.CreateLib(kavName, themeList)
     end  
     return Tabs
 end
-return Kavo
+return Winter
