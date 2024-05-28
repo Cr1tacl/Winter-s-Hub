@@ -202,10 +202,6 @@ MainSection:NewButton("ABGX Worlds", "Script for anime battlgrounds x worlds" , 
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-hub-Part-Two/main/ABGX-Worlds"))()
 end)
 
-MainSection:NewButton("ABGX", "Anime battlegrounds x script" , function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/KcZxW1Sp"))()
-end)
-
 MainSection:NewButton("Base Battles", "Base Battles script" , function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-hub-Part-Two/main/Base-Battles"))()
 end)
