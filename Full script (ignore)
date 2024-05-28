@@ -196,6 +196,7 @@ local Tab = Window:NewTab("Credits")
 local Section = Tab:NewSection("Discord: ._.b0ne")
 local Section = Tab:NewSection("Youtube Channel: @51256")
 local Section = Tab:NewSection("I will add more soon dont worry")
+local Section = Tab:NewSection("Credit to johncrash for crash script")
  
 Section:NewKeybind("Keybind", "Open/Close Menu", Enum.KeyCode.V, function()
 	Library:ToggleUI(V)
