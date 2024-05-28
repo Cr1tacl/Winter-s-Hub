@@ -172,7 +172,7 @@ MainSection:NewButton("KAT", "Aimbot/Aimlock" , function()
 end)
  
 MainSection:NewButton("Arsenal", "Aimbot/Aimlock and More" , function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Cr1tacl/Winter-s-Hub/main/arsenalsilentaim.lua"))();
 end)
  
 MainSection:NewButton("PLS DONATE", "Auto Beg!" , function()
