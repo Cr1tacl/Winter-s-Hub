@@ -172,7 +172,7 @@ MainSection:NewButton("KAT", "Aimbot/Aimlock" , function()
 end)
  
 MainSection:NewButton("Arsenal", "Aimbot/Aimlock and More" , function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Cr1tacl/Winter-s-Hub/main/arsenalsilentaim.lua"))();
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Cr1tacl/Winter-s-Hub/main/arsenalsilentaim.lua"))()
 end)
  
 MainSection:NewButton("PLS DONATE", "Auto Beg!" , function()
@@ -191,6 +191,73 @@ MainSection:NewButton("Zombie Attack", "Autofarm and More!" , function()
 	loadstring(game:HttpGet(('https://pastebin.com/raw/f0a3yune')))()
 end)
 
+local Tab = Window:NewTab("Untested")
+local MainSection = Tab:NewSection("Untested")
+local Section = Tab:NewSection("Be careful when using these, they are untested")
+
+PlayerSection:NewButton("ABGX Worlds", "Script for anime battlgrounds x worlds" , function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-hub-Part-Two/main/ABGX-Worlds"))()
+end)
+ 
+PlayerSection:NewButton("ABGX", "Anime battlegrounds x script" , function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/KcZxW1Sp"))();
+end)
+ 
+MainSection:NewButton("Base Battles", "Base Battles script" , function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-hub-Part-Two/main/Base-Battles"))()
+end)
+ 
+MainSection:NewButton("Bcbasw", "Be Crushed by a speeding wall" , function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-hub-Part-Two/main/Be-Crushed-by-a-Speeding-Wall"))()
+end)
+ 
+MainSection:NewButton("Car crushers 2", "Car crushers 2 script" , function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-hub-Part-Two/main/Car-Crushers-2"))()
+end)
+ 
+MainSection:NewButton("Counter Blox", "Counter Blox script" , function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-hub-Part-Two/main/Counter_Blox"))()
+end)
+ 
+MainSection:NewButton("Da Maze", "Da maze" , function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/1201for/V.G-hub-Part-Two/main/Da-Maze'))()
+end)
+MainSection:NewButton("DemonFall", "Demonfall script" , function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-hub-Part-Two/main/DemonFall"))()
+end)
+ 
+MainSection:NewButton("Dragonblox", "Dragonblox" , function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/1201for/V.G-hub-Part-Two/main/Dragon-Blox')))()
+end)
+ 
+MainSection:NewButton("Energy assault", "Energy assault" , function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-hub-Part-Two/main/Energy-Assault", true))()
+end)
+ 
+MainSection:NewButton("Flee the facility", "Flee the facility" , function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-hub-Part-Two/main/Flee-the-Facility"))()
+end)
+ 
+MainSection:NewButton("Military Tycoon", "Mil tycoon" , function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-hub-Part-Two/main/Military-Tycoon'))()
+end)
+ 
+MainSection:NewButton("PSX", "Pet simulator x" , function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-hub-Part-Two/main/Pet-Simulator-X"))()
+end)
+ 
+MainSection:NewButton("Speedrun 4", "Speedrun4" , function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-hub-Part-Two/main/Speed-Run-4"))()
+end)
+ 
+MainSection:NewButton("Strong punch sim", "Strong punch sim" , function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-hub-Part-Two/main/Stonrg_Punch_Sim"))()
+end)
+ 
+MainSection:NewButton("Tower Of Hell", "TP To The Top and More" , function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/BbVHjH56'))()
+end)	
+ 
 
 local Tab = Window:NewTab("Credits")
 local Section = Tab:NewSection("Discord: ._.b0ne")
