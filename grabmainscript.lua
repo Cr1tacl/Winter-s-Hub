@@ -9,7 +9,11 @@ local MainSection = Tab:NewSection("Scripts")
 MainSection:NewButton("Infinite Yield", "Basically Admin", function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
- 
+
+MainSection:NewButton("Internal UI", "Internal UI (for solara)", function()
+	loadstring(game:HttpGet('loadstring(game:HttpGet("https://pastebin.com/raw/xsPhFys2"))()'))()
+end)
+
 MainSection:NewButton("Spider Man (R15)", "Walk on Walls" , function()
 	loadstring(game:HttpGet("https://pastebin.com/raw/zXk4Rq2r"))()
 end)
