@@ -147,7 +147,7 @@ function Winter:ToggleUI()
     end
 end
 
-function Kavo.CreateLib(kavName, themeList)
+function Winter.CreateLib(kavName, themeList)
     if not themeList then
         themeList = themes
     end
