@@ -15,7 +15,7 @@ MainSection:NewButton("Internal UI", "Internal UI (for solara)", function()
 end)
 
 MainSection:NewButton("Spider Man (R15)", "Walk on Walls" , function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/zXk4Rq2r"))()
+	loadstring(game:HttpGet('https://pastebin.com/raw/zXk4Rq2r'))()
 end)
  
 MainSection:NewButton("Spider Man (R6)", "Walk on Walls With The Suit" , function()
