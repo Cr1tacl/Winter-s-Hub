@@ -195,6 +195,8 @@ MainSection:NewButton("Zombie Attack", "Autofarm and More!" , function()
 	loadstring(game:HttpGet(('https://pastebin.com/raw/f0a3yune')))()
 end)
 
+local Tab = Window:NewTab("Untested")
+local MainSection = Tab:NewSection("Untested")
 
 local Tab = Window:NewTab("Credits")
 local Section = Tab:NewSection("Discord: ._.b0ne")
