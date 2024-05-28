@@ -1,46 +1,46 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Cr1tacl/Winter-s-Hub/main/mainscripts.lua"))()
 local Window = Library.CreateLib("Winter's Hub", "Synapse")
--- Change "Synapse" into one of the following, Serpent,Sentinel,Midnight,Ocean,GrapeTheme
+-- Change "Synapse" into one of the following, Serpent, Sentinel, Midnight, Ocean, GrapeTheme
 -- Page 2: BloodTheme, LightTheme, DarkTheme,
 -- MAIN
 local Tab = Window:NewTab("Scripts")
 local MainSection = Tab:NewSection("Scripts")
  
 MainSection:NewButton("Infinite Yield", "Basically Admin", function()
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 
 MainSection:NewButton("Internal UI", "Internal UI (for solara)", function()
-	loadstring(game:HttpGet('https://pastebin.com/raw/xsPhFys2'))()
+    loadstring(game:HttpGet('https://pastebin.com/raw/xsPhFys2'))()
 end)
 
 MainSection:NewButton("Spider Man (R15)", "Walk on Walls" , function()
-	loadstring(game:HttpGet('https://pastebin.com/raw/zXk4Rq2r'))()
+    loadstring(game:HttpGet('https://pastebin.com/raw/zXk4Rq2r'))()
 end)
  
 MainSection:NewButton("Spider Man (R6)", "Walk on Walls With The Suit" , function()
-	loadstring(game:HttpGet(('https://pastebin.com/raw/2X0hKUgq'),true))()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/2X0hKUgq'),true))()
 end)
  
 MainSection:NewButton("R15 To R6 (FE)", "Change's animation" , function()
-	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Imagnir/r6_anims_for_r15/main/r6_anims.lua'),true))()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Imagnir/r6_anims_for_r15/main/r6_anims.lua'),true))()
 end)
  
 MainSection:NewButton("FE Emote", "All Emotes Keybind Open Is Comma" , function()
-	--keybind to open is comma
-	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Gi7331/scripts/main/Emote.lua"))()
+    --keybind to open is comma
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Gi7331/scripts/main/Emote.lua"))()
 end)
  
 MainSection:NewButton("Fps Unlocker", "Makes Your Game Faster can cause lag" , function()
-	setfpscap(999)
+    setfpscap(999)
 end)
  
 MainSection:NewButton("SimpleSpy", "Has Remotes!" , function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/hUSH0zgt"))()
+    loadstring(game:HttpGet("https://pastebin.com/raw/hUSH0zgt"))()
 end)
  
 MainSection:NewButton("Hydroxide", "Like RemoteSpy" , function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/SqfkEjyj"))()
+    loadstring(game:HttpGet("https://pastebin.com/raw/SqfkEjyj"))()
 end)
  
 local Player = Window:NewTab("Player")
