@@ -186,7 +186,7 @@ function Winter.CreateLib(kavName, themeList)
     themeList = themeList or {}
     local selectedTab 
     kavName = kavName or "Library"
-    table.insert(Kavo, kavName)
+    table.insert(Winter, kavName)
     for i,v in pairs(game.CoreGui:GetChildren()) do
         if v:IsA("ScreenGui") and v.Name == kavName then
             v:Destroy()
