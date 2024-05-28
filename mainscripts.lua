@@ -1,4 +1,4 @@
-local Kavo = {}
+local Winter = {}
 
 local tween = game:GetService("TweenService")
 local tweeninfo = TweenInfo.new
@@ -7,7 +7,7 @@ local run = game:GetService("RunService")
 
 local Utility = {}
 local Objects = {}
-function Kavo:DraggingEnabled(frame, parent)
+function Winter:DraggingEnabled(frame, parent)
         
     parent = parent or frame
     
