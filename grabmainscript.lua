@@ -242,6 +242,18 @@ MainSection:NewButton("Car crushers 2", "Car crushers 2 script" , function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-hub-Part-Two/main/Car-Crushers-2"))()
 end)
 
+local Tab = Window:NewTab("Hubs")
+local MainSection = Tab:NewSection("Hubs")
+
+MainSection:NewButton("CatHub", "Made for solaris" , function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/catter-y/cat-hub/main/obf23"))()
+end)
+
+MainSection:NewButton("Relief", "Relief Ui meant to be used by itself" , function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Cr1tacl/Winter-s-Hub/main/reliefui.lua"))()
+end)
+
+
 local Tab = Window:NewTab("Credits")
 local Section = Tab:NewSection("Discord: ._.b0ne")
 local Section = Tab:NewSection("Youtube Channel: @51256")
