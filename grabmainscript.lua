@@ -243,7 +243,7 @@ MainSection:NewButton("Car crushers 2", "Car crushers 2 script" , function()
 end)
 
 MainSection:NewButton("Bloxer Strike", "The one csgo roblox" , function()
-	loadstring(game:HttpGet("loadstring(game:HttpGet("https://raw.githubusercontent.com/fliskScript/jaran.vip/main/free.lua"))()"))()
+	loadstring(game:HttpGet("loadstring(game:HttpGet("https://raw.githubusercontent.com/Cr1tacl/Winter-s-Hub/main/csgoroblox.lua"))()"))()
 end)
 
 local Tab = Window:NewTab("Credits")
