@@ -242,10 +242,6 @@ MainSection:NewButton("Car crushers 2", "Car crushers 2 script" , function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-hub-Part-Two/main/Car-Crushers-2"))()
 end)
 
-MainSection:NewButton("Bloxer Strike", "The one csgo roblox" , function()
-	loadstring(game:HttpGet("loadstring(game:HttpGet("https://raw.githubusercontent.com/Cr1tacl/Winter-s-Hub/main/csgoroblox.lua"))()"))()
-end)
-
 local Tab = Window:NewTab("Credits")
 local Section = Tab:NewSection("Discord: ._.b0ne")
 local Section = Tab:NewSection("Youtube Channel: @51256")
