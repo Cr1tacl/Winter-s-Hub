@@ -242,6 +242,9 @@ MainSection:NewButton("Car crushers 2", "Car crushers 2 script" , function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-hub-Part-Two/main/Car-Crushers-2"))()
 end)
 
+MainSection:NewButton("Roblox counter strike", "I forgot the name of the actual roblox csgo name but this works" , function()
+	loadstring(game:HttpGet("loadstring(game:HttpGet("https://raw.githubusercontent.com/fliskScript/jaran.vip/main/free.lua"))()"))()
+end)
 
 local Tab = Window:NewTab("Credits")
 local Section = Tab:NewSection("Discord: ._.b0ne")
